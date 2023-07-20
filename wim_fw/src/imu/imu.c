@@ -22,10 +22,10 @@
 #include "ahrs.h"
 
 #include <math.h>
-#include <zephyr.h>
-#include <device.h>
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
 #include <hal/nrf_gpio.h>
-#include <sys/time_units.h>
+#include <zephyr/sys/time_units.h>
 
 #include "i2c_bb.h"
 

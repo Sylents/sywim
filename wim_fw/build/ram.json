@@ -1,0 +1,1974 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 40762,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 8908,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "sample.0",
+                        "size": 2,
+                        "identifier": ":/sample.0"
+                    },
+                    {
+                        "name": "nrf_esb_config.7",
+                        "size": 24,
+                        "identifier": ":/nrf_esb_config.7"
+                    },
+                    {
+                        "name": "tx_payload.6",
+                        "size": 37,
+                        "identifier": ":/tx_payload.6"
+                    },
+                    {
+                        "name": "tx_payload.1",
+                        "size": 296,
+                        "identifier": ":/tx_payload.1"
+                    },
+                    {
+                        "name": "rx_payload.0",
+                        "size": 296,
+                        "identifier": ":/rx_payload.0"
+                    },
+                    {
+                        "name": "sn.0",
+                        "size": 18,
+                        "identifier": ":/sn.0"
+                    },
+                    {
+                        "name": "dynamic_regions.0",
+                        "size": 12,
+                        "identifier": ":/dynamic_regions.0"
+                    },
+                    {
+                        "name": "on.2",
+                        "size": 4,
+                        "identifier": ":/on.2"
+                    },
+                    {
+                        "name": "cli.1",
+                        "size": 16,
+                        "identifier": ":/cli.1"
+                    },
+                    {
+                        "name": "hci_buf.0",
+                        "size": 70,
+                        "identifier": ":/hci_buf.0"
+                    },
+                    {
+                        "name": "nrf_cc3xx_platform_initialized",
+                        "size": 4,
+                        "identifier": ":/nrf_cc3xx_platform_initialized"
+                    },
+                    {
+                        "name": "nrf_cc3xx_platform_rng_initialized",
+                        "size": 4,
+                        "identifier": ":/nrf_cc3xx_platform_rng_initialized"
+                    },
+                    {
+                        "name": "buf.0",
+                        "size": 416,
+                        "identifier": ":/buf.0"
+                    },
+                    {
+                        "name": "seed.1",
+                        "size": 384,
+                        "identifier": ":/seed.1"
+                    },
+                    {
+                        "name": "rndWorkbuff.0",
+                        "size": 544,
+                        "identifier": ":/rndWorkbuff.0"
+                    },
+                    {
+                        "name": "random_seed_filled",
+                        "size": 4,
+                        "identifier": ":/random_seed_filled"
+                    },
+                    {
+                        "name": "random_seed_buffer",
+                        "size": 104,
+                        "identifier": ":/random_seed_buffer"
+                    },
+                    {
+                        "name": "use_count",
+                        "size": 4,
+                        "identifier": ":/use_count"
+                    },
+                    {
+                        "name": "trngParams.1",
+                        "size": 40,
+                        "identifier": ":/trngParams.1"
+                    },
+                    {
+                        "name": "rndWorkBuffer.2",
+                        "size": 544,
+                        "identifier": ":/rndWorkBuffer.2"
+                    },
+                    {
+                        "name": "rndState.0",
+                        "size": 4,
+                        "identifier": ":/rndState.0"
+                    },
+                    {
+                        "name": "ctx.0",
+                        "size": 244,
+                        "identifier": ":/ctx.0"
+                    },
+                    {
+                        "name": "impure_data",
+                        "size": 96,
+                        "identifier": ":/impure_data"
+                    },
+                    {
+                        "name": "numempty",
+                        "size": 2,
+                        "identifier": ":/numempty"
+                    },
+                    {
+                        "name": "pCCRndCryptoMutex",
+                        "size": 4,
+                        "identifier": ":/pCCRndCryptoMutex"
+                    },
+                    {
+                        "name": "errno",
+                        "size": 4,
+                        "identifier": ":/errno"
+                    },
+                    {
+                        "name": "CCPowerMutex",
+                        "size": 4,
+                        "identifier": ":/CCPowerMutex"
+                    },
+                    {
+                        "name": "sym_SXHUVOM4EI7L4NGF2KWSQ6ZLB3KNNMW76PXITUA",
+                        "size": 394,
+                        "identifier": ":/sym_SXHUVOM4EI7L4NGF2KWSQ6ZLB3KNNMW76PXITUA"
+                    },
+                    {
+                        "name": "CCAsymCryptoMutex",
+                        "size": 4,
+                        "identifier": ":/CCAsymCryptoMutex"
+                    },
+                    {
+                        "name": "z_interrupt_stacks",
+                        "size": 2176,
+                        "identifier": ":/z_interrupt_stacks"
+                    },
+                    {
+                        "name": "bt_dev",
+                        "size": 296,
+                        "identifier": ":/bt_dev"
+                    },
+                    {
+                        "name": "sym_VQ35Q3R547AGSAUE3MG4FJPAHAQLVUOXVCL6PHY",
+                        "size": 3,
+                        "identifier": ":/sym_VQ35Q3R547AGSAUE3MG4FJPAHAQLVUOXVCL6PHY"
+                    },
+                    {
+                        "name": "_impure_ptr",
+                        "size": 4,
+                        "identifier": ":/_impure_ptr"
+                    },
+                    {
+                        "name": "z_usb_work_q",
+                        "size": 280,
+                        "identifier": ":/z_usb_work_q"
+                    },
+                    {
+                        "name": "__malloc_sbrk_start",
+                        "size": 4,
+                        "identifier": ":/__malloc_sbrk_start"
+                    },
+                    {
+                        "name": "CCRndCryptoMutex",
+                        "size": 4,
+                        "identifier": ":/CCRndCryptoMutex"
+                    },
+                    {
+                        "name": "_sw_isr_table",
+                        "size": 384,
+                        "identifier": ":/_sw_isr_table"
+                    },
+                    {
+                        "name": "platform_mutex_apis",
+                        "size": 16,
+                        "identifier": ":/platform_mutex_apis"
+                    },
+                    {
+                        "name": "z_main_thread",
+                        "size": 248,
+                        "identifier": ":/z_main_thread"
+                    },
+                    {
+                        "name": "nrf_cc3xx_platform_ctr_drbg_global_ctx",
+                        "size": 448,
+                        "identifier": ":/nrf_cc3xx_platform_ctr_drbg_global_ctx"
+                    },
+                    {
+                        "name": "mbedtls_mutex_lock",
+                        "size": 4,
+                        "identifier": ":/mbedtls_mutex_lock"
+                    },
+                    {
+                        "name": "invalid_aes_256_bit_key",
+                        "size": 4,
+                        "identifier": ":/invalid_aes_256_bit_key"
+                    },
+                    {
+                        "name": "platform_abort_apis",
+                        "size": 8,
+                        "identifier": ":/platform_abort_apis"
+                    },
+                    {
+                        "name": "_kernel",
+                        "size": 48,
+                        "identifier": ":/_kernel"
+                    },
+                    {
+                        "name": "_SEGGER_RTT",
+                        "size": 168,
+                        "identifier": ":/_SEGGER_RTT"
+                    },
+                    {
+                        "name": "mbedtls_mutex_init",
+                        "size": 4,
+                        "identifier": ":/mbedtls_mutex_init"
+                    },
+                    {
+                        "name": "z_idle_threads",
+                        "size": 248,
+                        "identifier": ":/z_idle_threads"
+                    },
+                    {
+                        "name": "mbedtls_mutex_unlock",
+                        "size": 4,
+                        "identifier": ":/mbedtls_mutex_unlock"
+                    },
+                    {
+                        "name": "__global_locale",
+                        "size": 364,
+                        "identifier": ":/__global_locale"
+                    },
+                    {
+                        "name": "k_sys_work_q",
+                        "size": 280,
+                        "identifier": ":/k_sys_work_q"
+                    },
+                    {
+                        "name": "sym_X2CGJY32WPU5QR6XFTHTAS6KO4LV2ENSTHTXMQI",
+                        "size": 24,
+                        "identifier": ":/sym_X2CGJY32WPU5QR6XFTHTAS6KO4LV2ENSTHTXMQI"
+                    },
+                    {
+                        "name": "platform_mutexes",
+                        "size": 20,
+                        "identifier": ":/platform_mutexes"
+                    },
+                    {
+                        "name": "CCSymCryptoMutex",
+                        "size": 4,
+                        "identifier": ":/CCSymCryptoMutex"
+                    },
+                    {
+                        "name": "sym_Z5WZCMHZDI7RNMVB5GZYQIRS7P3BTO7552UV62I",
+                        "size": 1,
+                        "identifier": ":/sym_Z5WZCMHZDI7RNMVB5GZYQIRS7P3BTO7552UV62I"
+                    },
+                    {
+                        "name": "__malloc_free_list",
+                        "size": 4,
+                        "identifier": ":/__malloc_free_list"
+                    },
+                    {
+                        "name": "mpsl_work_q",
+                        "size": 280,
+                        "identifier": ":/mpsl_work_q"
+                    },
+                    {
+                        "name": "__fdlib_version",
+                        "size": 1,
+                        "identifier": ":/__fdlib_version"
+                    }
+                ]
+            },
+            {
+                "name": "ZEPHYR_BASE",
+                "size": 15680,
+                "identifier": "/opt/nordic/ncs/zephyr",
+                "children": [
+                    {
+                        "name": "kernel",
+                        "size": 4674,
+                        "identifier": "kernel",
+                        "children": [
+                            {
+                                "name": "work.c",
+                                "size": 8,
+                                "identifier": "kernel/work.c",
+                                "children": [
+                                    {
+                                        "name": "pending_cancels",
+                                        "size": 8,
+                                        "identifier": "kernel/work.c/pending_cancels"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "init.c",
+                                "size": 2497,
+                                "identifier": "kernel/init.c",
+                                "children": [
+                                    {
+                                        "name": "z_idle_stacks",
+                                        "size": 384,
+                                        "identifier": "kernel/init.c/z_idle_stacks"
+                                    },
+                                    {
+                                        "name": "z_sys_post_kernel",
+                                        "size": 1,
+                                        "identifier": "kernel/init.c/z_sys_post_kernel"
+                                    },
+                                    {
+                                        "name": "z_main_stack",
+                                        "size": 2112,
+                                        "identifier": "kernel/init.c/z_main_stack"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sched.c",
+                                "size": 37,
+                                "identifier": "kernel/sched.c",
+                                "children": [
+                                    {
+                                        "name": "slice_ticks",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/slice_ticks"
+                                    },
+                                    {
+                                        "name": "slice_max_prio",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/slice_max_prio"
+                                    },
+                                    {
+                                        "name": "slice_timeouts",
+                                        "size": 24,
+                                        "identifier": "kernel/sched.c/slice_timeouts"
+                                    },
+                                    {
+                                        "name": "slice_expired",
+                                        "size": 1,
+                                        "identifier": "kernel/sched.c/slice_expired"
+                                    },
+                                    {
+                                        "name": "pending_current",
+                                        "size": 4,
+                                        "identifier": "kernel/sched.c/pending_current"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timeout.c",
+                                "size": 20,
+                                "identifier": "kernel/timeout.c",
+                                "children": [
+                                    {
+                                        "name": "timeout_list",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/timeout_list"
+                                    },
+                                    {
+                                        "name": "announce_remaining",
+                                        "size": 4,
+                                        "identifier": "kernel/timeout.c/announce_remaining"
+                                    },
+                                    {
+                                        "name": "curr_tick",
+                                        "size": 8,
+                                        "identifier": "kernel/timeout.c/curr_tick"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "system_work_q.c",
+                                "size": 2112,
+                                "identifier": "kernel/system_work_q.c",
+                                "children": [
+                                    {
+                                        "name": "sys_work_q_stack",
+                                        "size": 2112,
+                                        "identifier": "kernel/system_work_q.c/sys_work_q_stack"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "subsys",
+                        "size": 6129,
+                        "identifier": "subsys",
+                        "children": [
+                            {
+                                "name": "pm",
+                                "size": 40,
+                                "identifier": "subsys/pm",
+                                "children": [
+                                    {
+                                        "name": "pm.c",
+                                        "size": 36,
+                                        "identifier": "subsys/pm/pm.c",
+                                        "children": [
+                                            {
+                                                "name": "pm_notifiers",
+                                                "size": 8,
+                                                "identifier": "subsys/pm/pm.c/pm_notifiers"
+                                            },
+                                            {
+                                                "name": "z_cpus_pm_state",
+                                                "size": 12,
+                                                "identifier": "subsys/pm/pm.c/z_cpus_pm_state"
+                                            },
+                                            {
+                                                "name": "z_post_ops_required",
+                                                "size": 4,
+                                                "identifier": "subsys/pm/pm.c/z_post_ops_required"
+                                            },
+                                            {
+                                                "name": "z_cpus_pm_forced_state",
+                                                "size": 12,
+                                                "identifier": "subsys/pm/pm.c/z_cpus_pm_forced_state"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "policy.c",
+                                        "size": 4,
+                                        "identifier": "subsys/pm/policy.c",
+                                        "children": [
+                                            {
+                                                "name": "max_latency_ticks",
+                                                "size": 4,
+                                                "identifier": "subsys/pm/policy.c/max_latency_ticks"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "usb",
+                                "size": 4117,
+                                "identifier": "subsys/usb",
+                                "children": [
+                                    {
+                                        "name": "device",
+                                        "size": 4117,
+                                        "identifier": "subsys/usb/device",
+                                        "children": [
+                                            {
+                                                "name": "usb_device.c",
+                                                "size": 220,
+                                                "identifier": "subsys/usb/device/usb_device.c",
+                                                "children": [
+                                                    {
+                                                        "name": "usb_dev",
+                                                        "size": 200,
+                                                        "identifier": "subsys/usb/device/usb_device.c/usb_dev"
+                                                    },
+                                                    {
+                                                        "name": "usb_enable_lock",
+                                                        "size": 20,
+                                                        "identifier": "subsys/usb/device/usb_device.c/usb_enable_lock"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "usb_descriptor.c",
+                                                "size": 97,
+                                                "identifier": "subsys/usb/device/usb_descriptor.c",
+                                                "children": [
+                                                    {
+                                                        "name": "term_descr",
+                                                        "size": 2,
+                                                        "identifier": "subsys/usb/device/usb_descriptor.c/term_descr"
+                                                    },
+                                                    {
+                                                        "name": "string_descr",
+                                                        "size": 68,
+                                                        "identifier": "subsys/usb/device/usb_descriptor.c/string_descr"
+                                                    },
+                                                    {
+                                                        "name": "common_desc",
+                                                        "size": 27,
+                                                        "identifier": "subsys/usb/device/usb_descriptor.c/common_desc"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "usb_transfer.c",
+                                                "size": 288,
+                                                "identifier": "subsys/usb/device/usb_transfer.c",
+                                                "children": [
+                                                    {
+                                                        "name": "ut_data",
+                                                        "size": 288,
+                                                        "identifier": "subsys/usb/device/usb_transfer.c/ut_data"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "class",
+                                                "size": 2424,
+                                                "identifier": "subsys/usb/device/class",
+                                                "children": [
+                                                    {
+                                                        "name": "cdc_acm.c",
+                                                        "size": 2424,
+                                                        "identifier": "subsys/usb/device/class/cdc_acm.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "cdc_acm_data_devlist",
+                                                                "size": 8,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_data_devlist"
+                                                            },
+                                                            {
+                                                                "name": "cdc_acm_config_0",
+                                                                "size": 36,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_config_0"
+                                                            },
+                                                            {
+                                                                "name": "__devstate_dts_ord_111",
+                                                                "size": 2,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/__devstate_dts_ord_111"
+                                                            },
+                                                            {
+                                                                "name": "cdc_acm_dev_data_0",
+                                                                "size": 176,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_dev_data_0"
+                                                            },
+                                                            {
+                                                                "name": "_ring_buffer_data_cdc_acm_tx_rb_0",
+                                                                "size": 1024,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/_ring_buffer_data_cdc_acm_tx_rb_0"
+                                                            },
+                                                            {
+                                                                "name": "_ring_buffer_data_cdc_acm_rx_rb_0",
+                                                                "size": 1024,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/_ring_buffer_data_cdc_acm_rx_rb_0"
+                                                            },
+                                                            {
+                                                                "name": "cdc_acm_cfg_0",
+                                                                "size": 66,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_cfg_0"
+                                                            },
+                                                            {
+                                                                "name": "cdc_acm_ep_data_0",
+                                                                "size": 24,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_ep_data_0"
+                                                            },
+                                                            {
+                                                                "name": "cdc_acm_rx_rb_0",
+                                                                "size": 32,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_rx_rb_0"
+                                                            },
+                                                            {
+                                                                "name": "cdc_acm_tx_rb_0",
+                                                                "size": 32,
+                                                                "identifier": "subsys/usb/device/class/cdc_acm.c/cdc_acm_tx_rb_0"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "usb_work_q.c",
+                                                "size": 1088,
+                                                "identifier": "subsys/usb/device/usb_work_q.c",
+                                                "children": [
+                                                    {
+                                                        "name": "z_usb_work_q_stack",
+                                                        "size": 1088,
+                                                        "identifier": "subsys/usb/device/usb_work_q.c/z_usb_work_q_stack"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bluetooth",
+                                "size": 1911,
+                                "identifier": "subsys/bluetooth",
+                                "children": [
+                                    {
+                                        "name": "host",
+                                        "size": 1911,
+                                        "identifier": "subsys/bluetooth/host",
+                                        "children": [
+                                            {
+                                                "name": "buf.c",
+                                                "size": 1339,
+                                                "identifier": "subsys/bluetooth/host/buf.c",
+                                                "children": [
+                                                    {
+                                                        "name": "hci_rx_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/hci_rx_pool"
+                                                    },
+                                                    {
+                                                        "name": "discardable_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/discardable_pool"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_rx_pool",
+                                                        "size": 320,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/_net_buf_hci_rx_pool"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_rx_pool",
+                                                        "size": 700,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/net_buf_data_hci_rx_pool"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_discardable_pool",
+                                                        "size": 96,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/_net_buf_discardable_pool"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_discardable_pool",
+                                                        "size": 135,
+                                                        "identifier": "subsys/bluetooth/host/buf.c/net_buf_data_discardable_pool"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "hci_core.c",
+                                                "size": 572,
+                                                "identifier": "subsys/bluetooth/host/hci_core.c",
+                                                "children": [
+                                                    {
+                                                        "name": "hci_cmd_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/hci_cmd_pool"
+                                                    },
+                                                    {
+                                                        "name": "cmd_data",
+                                                        "size": 24,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/cmd_data"
+                                                    },
+                                                    {
+                                                        "name": "rx_work",
+                                                        "size": 16,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/rx_work"
+                                                    },
+                                                    {
+                                                        "name": "bt_workq",
+                                                        "size": 280,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/bt_workq"
+                                                    },
+                                                    {
+                                                        "name": "ready_cb",
+                                                        "size": 4,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/ready_cb"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_cmd_pool",
+                                                        "size": 64,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/_net_buf_hci_cmd_pool"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_cmd_pool",
+                                                        "size": 140,
+                                                        "identifier": "subsys/bluetooth/host/hci_core.c/net_buf_data_hci_cmd_pool"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "debug",
+                                "size": 61,
+                                "identifier": "subsys/debug",
+                                "children": [
+                                    {
+                                        "name": "thread_info.c",
+                                        "size": 61,
+                                        "identifier": "subsys/debug/thread_info.c",
+                                        "children": [
+                                            {
+                                                "name": "_kernel_thread_info_num_offsets",
+                                                "size": 4,
+                                                "identifier": "subsys/debug/thread_info.c/_kernel_thread_info_num_offsets"
+                                            },
+                                            {
+                                                "name": "_kernel_thread_info_offsets",
+                                                "size": 56,
+                                                "identifier": "subsys/debug/thread_info.c/_kernel_thread_info_offsets"
+                                            },
+                                            {
+                                                "name": "_kernel_thread_info_size_t_size",
+                                                "size": 1,
+                                                "identifier": "subsys/debug/thread_info.c/_kernel_thread_info_size_t_size"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arch",
+                        "size": 1,
+                        "identifier": "arch",
+                        "children": [
+                            {
+                                "name": "arm",
+                                "size": 1,
+                                "identifier": "arch/arm",
+                                "children": [
+                                    {
+                                        "name": "core",
+                                        "size": 1,
+                                        "identifier": "arch/arm/core",
+                                        "children": [
+                                            {
+                                                "name": "aarch32",
+                                                "size": 1,
+                                                "identifier": "arch/arm/core/aarch32",
+                                                "children": [
+                                                    {
+                                                        "name": "mpu",
+                                                        "size": 1,
+                                                        "identifier": "arch/arm/core/aarch32/mpu",
+                                                        "children": [
+                                                            {
+                                                                "name": "arm_mpu.c",
+                                                                "size": 1,
+                                                                "identifier": "arch/arm/core/aarch32/mpu/arm_mpu.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "static_regions_num",
+                                                                        "size": 1,
+                                                                        "identifier": "arch/arm/core/aarch32/mpu/arm_mpu.c/static_regions_num"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lib",
+                        "size": 76,
+                        "identifier": "lib",
+                        "children": [
+                            {
+                                "name": "libc",
+                                "size": 72,
+                                "identifier": "lib/libc",
+                                "children": [
+                                    {
+                                        "name": "newlib",
+                                        "size": 72,
+                                        "identifier": "lib/libc/newlib",
+                                        "children": [
+                                            {
+                                                "name": "libc-hooks.c",
+                                                "size": 72,
+                                                "identifier": "lib/libc/newlib/libc-hooks.c",
+                                                "children": [
+                                                    {
+                                                        "name": "_stdout_hook",
+                                                        "size": 4,
+                                                        "identifier": "lib/libc/newlib/libc-hooks.c/_stdout_hook"
+                                                    },
+                                                    {
+                                                        "name": "_stdin_hook",
+                                                        "size": 4,
+                                                        "identifier": "lib/libc/newlib/libc-hooks.c/_stdin_hook"
+                                                    },
+                                                    {
+                                                        "name": "heap_sz",
+                                                        "size": 4,
+                                                        "identifier": "lib/libc/newlib/libc-hooks.c/heap_sz"
+                                                    },
+                                                    {
+                                                        "name": "__lock___malloc_recursive_mutex",
+                                                        "size": 20,
+                                                        "identifier": "lib/libc/newlib/libc-hooks.c/__lock___malloc_recursive_mutex"
+                                                    },
+                                                    {
+                                                        "name": "__lock___sinit_recursive_mutex",
+                                                        "size": 20,
+                                                        "identifier": "lib/libc/newlib/libc-hooks.c/__lock___sinit_recursive_mutex"
+                                                    },
+                                                    {
+                                                        "name": "__lock___sfp_recursive_mutex",
+                                                        "size": 20,
+                                                        "identifier": "lib/libc/newlib/libc-hooks.c/__lock___sfp_recursive_mutex"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "os",
+                                "size": 4,
+                                "identifier": "lib/os",
+                                "children": [
+                                    {
+                                        "name": "printk.c",
+                                        "size": 4,
+                                        "identifier": "lib/os/printk.c",
+                                        "children": [
+                                            {
+                                                "name": "_char_out",
+                                                "size": 4,
+                                                "identifier": "lib/os/printk.c/_char_out"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "drivers",
+                        "size": 4800,
+                        "identifier": "drivers",
+                        "children": [
+                            {
+                                "name": "usb",
+                                "size": 4252,
+                                "identifier": "drivers/usb",
+                                "children": [
+                                    {
+                                        "name": "device",
+                                        "size": 4252,
+                                        "identifier": "drivers/usb/device",
+                                        "children": [
+                                            {
+                                                "name": "usb_dc_nrfx.c",
+                                                "size": 4252,
+                                                "identifier": "drivers/usb/device/usb_dc_nrfx.c",
+                                                "children": [
+                                                    {
+                                                        "name": "usbd_ctx",
+                                                        "size": 656,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/usbd_ctx"
+                                                    },
+                                                    {
+                                                        "name": "ep_out_bufs",
+                                                        "size": 512,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/ep_out_bufs"
+                                                    },
+                                                    {
+                                                        "name": "ep_isoout_bufs",
+                                                        "size": 1024,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/ep_isoout_bufs"
+                                                    },
+                                                    {
+                                                        "name": "usbd_work_queue",
+                                                        "size": 280,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/usbd_work_queue"
+                                                    },
+                                                    {
+                                                        "name": "usbd_work_queue_stack",
+                                                        "size": 1088,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/usbd_work_queue_stack"
+                                                    },
+                                                    {
+                                                        "name": "usbd_evt_fifo",
+                                                        "size": 24,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/usbd_evt_fifo"
+                                                    },
+                                                    {
+                                                        "name": "_k_mem_slab_buf_fifo_elem_slab",
+                                                        "size": 640,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/_k_mem_slab_buf_fifo_elem_slab"
+                                                    },
+                                                    {
+                                                        "name": "fifo_elem_slab",
+                                                        "size": 28,
+                                                        "identifier": "drivers/usb/device/usb_dc_nrfx.c/fifo_elem_slab"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "adc",
+                                "size": 178,
+                                "identifier": "drivers/adc",
+                                "children": [
+                                    {
+                                        "name": "adc_nrfx_saadc.c",
+                                        "size": 178,
+                                        "identifier": "drivers/adc/adc_nrfx_saadc.c",
+                                        "children": [
+                                            {
+                                                "name": "m_data",
+                                                "size": 176,
+                                                "identifier": "drivers/adc/adc_nrfx_saadc.c/m_data"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_52",
+                                                "size": 2,
+                                                "identifier": "drivers/adc/adc_nrfx_saadc.c/__devstate_dts_ord_52"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "clock_control",
+                                "size": 86,
+                                "identifier": "drivers/clock_control",
+                                "children": [
+                                    {
+                                        "name": "clock_control_nrf.c",
+                                        "size": 86,
+                                        "identifier": "drivers/clock_control/clock_control_nrf.c",
+                                        "children": [
+                                            {
+                                                "name": "data",
+                                                "size": 80,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/data"
+                                            },
+                                            {
+                                                "name": "hfclk_users",
+                                                "size": 4,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/hfclk_users"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_54",
+                                                "size": 2,
+                                                "identifier": "drivers/clock_control/clock_control_nrf.c/__devstate_dts_ord_54"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "entropy",
+                                "size": 88,
+                                "identifier": "drivers/entropy",
+                                "children": [
+                                    {
+                                        "name": "entropy_nrf5.c",
+                                        "size": 86,
+                                        "identifier": "drivers/entropy/entropy_nrf5.c",
+                                        "children": [
+                                            {
+                                                "name": "entropy_nrf5_data",
+                                                "size": 84,
+                                                "identifier": "drivers/entropy/entropy_nrf5.c/entropy_nrf5_data"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_78",
+                                                "size": 2,
+                                                "identifier": "drivers/entropy/entropy_nrf5.c/__devstate_dts_ord_78"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "entropy_bt_hci.c",
+                                        "size": 2,
+                                        "identifier": "drivers/entropy/entropy_bt_hci.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_3",
+                                                "size": 2,
+                                                "identifier": "drivers/entropy/entropy_bt_hci.c/__devstate_dts_ord_3"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "flash",
+                                "size": 35,
+                                "identifier": "drivers/flash",
+                                "children": [
+                                    {
+                                        "name": "soc_flash_nrf.c",
+                                        "size": 35,
+                                        "identifier": "drivers/flash/soc_flash_nrf.c",
+                                        "children": [
+                                            {
+                                                "name": "dev_layout",
+                                                "size": 8,
+                                                "identifier": "drivers/flash/soc_flash_nrf.c/dev_layout"
+                                            },
+                                            {
+                                                "name": "pofcon_enabled",
+                                                "size": 1,
+                                                "identifier": "drivers/flash/soc_flash_nrf.c/pofcon_enabled"
+                                            },
+                                            {
+                                                "name": "sem_lock",
+                                                "size": 24,
+                                                "identifier": "drivers/flash/soc_flash_nrf.c/sem_lock"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_98",
+                                                "size": 2,
+                                                "identifier": "drivers/flash/soc_flash_nrf.c/__devstate_dts_ord_98"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gpio",
+                                "size": 28,
+                                "identifier": "drivers/gpio",
+                                "children": [
+                                    {
+                                        "name": "gpio_nrfx.c",
+                                        "size": 28,
+                                        "identifier": "drivers/gpio/gpio_nrfx.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_9",
+                                                "size": 2,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/__devstate_dts_ord_9"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p1_data",
+                                                "size": 12,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_p1_data"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_15",
+                                                "size": 2,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/__devstate_dts_ord_15"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p0_data",
+                                                "size": 12,
+                                                "identifier": "drivers/gpio/gpio_nrfx.c/gpio_nrfx_p0_data"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "serial",
+                                "size": 88,
+                                "identifier": "drivers/serial",
+                                "children": [
+                                    {
+                                        "name": "uart_nrfx_uarte.c",
+                                        "size": 88,
+                                        "identifier": "drivers/serial/uart_nrfx_uarte.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_92",
+                                                "size": 2,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/__devstate_dts_ord_92"
+                                            },
+                                            {
+                                                "name": "uarte_0_data",
+                                                "size": 32,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte_0_data"
+                                            },
+                                            {
+                                                "name": "uarte0_int_driven",
+                                                "size": 20,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte0_int_driven"
+                                            },
+                                            {
+                                                "name": "uarte0_char_out",
+                                                "size": 1,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte0_char_out"
+                                            },
+                                            {
+                                                "name": "uarte0_rx_data",
+                                                "size": 1,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte0_rx_data"
+                                            },
+                                            {
+                                                "name": "uarte0_tx_buffer",
+                                                "size": 32,
+                                                "identifier": "drivers/serial/uart_nrfx_uarte.c/uarte0_tx_buffer"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timer",
+                                "size": 45,
+                                "identifier": "drivers/timer",
+                                "children": [
+                                    {
+                                        "name": "nrf_rtc_timer.c",
+                                        "size": 45,
+                                        "identifier": "drivers/timer/nrf_rtc_timer.c",
+                                        "children": [
+                                            {
+                                                "name": "int_mask",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/int_mask"
+                                            },
+                                            {
+                                                "name": "force_isr_mask",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/force_isr_mask"
+                                            },
+                                            {
+                                                "name": "last_count",
+                                                "size": 8,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/last_count"
+                                            },
+                                            {
+                                                "name": "overflow_cnt",
+                                                "size": 4,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/overflow_cnt"
+                                            },
+                                            {
+                                                "name": "anchor",
+                                                "size": 8,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/anchor"
+                                            },
+                                            {
+                                                "name": "cc_data",
+                                                "size": 16,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/cc_data"
+                                            },
+                                            {
+                                                "name": "sys_busy",
+                                                "size": 1,
+                                                "identifier": "drivers/timer/nrf_rtc_timer.c/sys_busy"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "/",
+                "size": 7435,
+                "identifier": "/",
+                "children": [
+                    {
+                        "name": "Users",
+                        "size": 7435,
+                        "identifier": "/Users",
+                        "children": [
+                            {
+                                "name": "christian",
+                                "size": 7435,
+                                "identifier": "/Users/christian",
+                                "children": [
+                                    {
+                                        "name": "workspace",
+                                        "size": 7435,
+                                        "identifier": "/Users/christian/workspace",
+                                        "children": [
+                                            {
+                                                "name": "wim",
+                                                "size": 7435,
+                                                "identifier": "/Users/christian/workspace/wim",
+                                                "children": [
+                                                    {
+                                                        "name": "src",
+                                                        "size": 7435,
+                                                        "identifier": "/Users/christian/workspace/wim/src",
+                                                        "children": [
+                                                            {
+                                                                "name": "main.c",
+                                                                "size": 4641,
+                                                                "identifier": "/Users/christian/workspace/wim/src/main.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "esb_rx_cnt",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/esb_rx_cnt"
+                                                                    },
+                                                                    {
+                                                                        "name": "esb_no_rx_cnt",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/esb_no_rx_cnt"
+                                                                    },
+                                                                    {
+                                                                        "name": "vesc_val",
+                                                                        "size": 40,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/vesc_val"
+                                                                    },
+                                                                    {
+                                                                        "name": "v_js_fault_samples",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/v_js_fault_samples"
+                                                                    },
+                                                                    {
+                                                                        "name": "v_js",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/v_js"
+                                                                    },
+                                                                    {
+                                                                        "name": "v_js_fault_now",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/v_js_fault_now"
+                                                                    },
+                                                                    {
+                                                                        "name": "v_batt",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/v_batt"
+                                                                    },
+                                                                    {
+                                                                        "name": "v_js_diff",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/v_js_diff"
+                                                                    },
+                                                                    {
+                                                                        "name": "v_js_avg_diff",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/v_js_avg_diff"
+                                                                    },
+                                                                    {
+                                                                        "name": "sleep_in_ms",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/sleep_in_ms"
+                                                                    },
+                                                                    {
+                                                                        "name": "conf",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/conf"
+                                                                    },
+                                                                    {
+                                                                        "name": "fs",
+                                                                        "size": 48,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/fs"
+                                                                    },
+                                                                    {
+                                                                        "name": "is_cc",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/is_cc"
+                                                                    },
+                                                                    {
+                                                                        "name": "is_rev",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/is_rev"
+                                                                    },
+                                                                    {
+                                                                        "name": "mote_locked",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/mote_locked"
+                                                                    },
+                                                                    {
+                                                                        "name": "screen_now",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/screen_now"
+                                                                    },
+                                                                    {
+                                                                        "name": "_k_thread_stack_adc_id",
+                                                                        "size": 4160,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/_k_thread_stack_adc_id"
+                                                                    },
+                                                                    {
+                                                                        "name": "esb_info_obj",
+                                                                        "size": 56,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/esb_info_obj"
+                                                                    },
+                                                                    {
+                                                                        "name": "_k_thread_obj_adc_id",
+                                                                        "size": 248,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/_k_thread_obj_adc_id"
+                                                                    },
+                                                                    {
+                                                                        "name": "_k_thread_data_adc_id",
+                                                                        "size": 44,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/_k_thread_data_adc_id"
+                                                                    },
+                                                                    {
+                                                                        "name": "going_to_sleep",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/main.c/going_to_sleep"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "imu",
+                                                                "size": 2520,
+                                                                "identifier": "/Users/christian/workspace/wim/src/imu",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "imu.c",
+                                                                        "size": 2520,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/imu/imu.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "s_i2c",
+                                                                                "size": 12,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/s_i2c"
+                                                                            },
+                                                                            {
+                                                                                "name": "sensor",
+                                                                                "size": 40,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/sensor"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_att",
+                                                                                "size": 36,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/m_att"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_accel",
+                                                                                "size": 12,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/m_accel"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_gyro",
+                                                                                "size": 12,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/m_gyro"
+                                                                            },
+                                                                            {
+                                                                                "name": "imu_samples_ready",
+                                                                                "size": 4,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/imu_samples_ready"
+                                                                            },
+                                                                            {
+                                                                                "name": "_k_thread_stack_imu_id",
+                                                                                "size": 2112,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/_k_thread_stack_imu_id"
+                                                                            },
+                                                                            {
+                                                                                "name": "_k_thread_obj_imu_id",
+                                                                                "size": 248,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/_k_thread_obj_imu_id"
+                                                                            },
+                                                                            {
+                                                                                "name": "_k_thread_data_imu_id",
+                                                                                "size": 44,
+                                                                                "identifier": "/Users/christian/workspace/wim/src/imu/imu.c/_k_thread_data_imu_id"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "nrf_esb.c",
+                                                                "size": 274,
+                                                                "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "esb_addr",
+                                                                        "size": 20,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/esb_addr"
+                                                                    },
+                                                                    {
+                                                                        "name": "esb_cfg",
+                                                                        "size": 24,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/esb_cfg"
+                                                                    },
+                                                                    {
+                                                                        "name": "wait_for_ack_timeout_us",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/wait_for_ack_timeout_us"
+                                                                    },
+                                                                    {
+                                                                        "name": "update_rf_payload_format",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/update_rf_payload_format"
+                                                                    },
+                                                                    {
+                                                                        "name": "tx_fifo",
+                                                                        "size": 44,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/tx_fifo"
+                                                                    },
+                                                                    {
+                                                                        "name": "rx_fifo",
+                                                                        "size": 44,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/rx_fifo"
+                                                                    },
+                                                                    {
+                                                                        "name": "rx_payload_buffer",
+                                                                        "size": 34,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/rx_payload_buffer"
+                                                                    },
+                                                                    {
+                                                                        "name": "on_radio_disabled",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/on_radio_disabled"
+                                                                    },
+                                                                    {
+                                                                        "name": "esb_state",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/esb_state"
+                                                                    },
+                                                                    {
+                                                                        "name": "interrupt_flags",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/interrupt_flags"
+                                                                    },
+                                                                    {
+                                                                        "name": "last_tx_attempts",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/last_tx_attempts"
+                                                                    },
+                                                                    {
+                                                                        "name": "event_handler",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/event_handler"
+                                                                    },
+                                                                    {
+                                                                        "name": "current_payload",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/current_payload"
+                                                                    },
+                                                                    {
+                                                                        "name": "tx_payload_buffer",
+                                                                        "size": 34,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/tx_payload_buffer"
+                                                                    },
+                                                                    {
+                                                                        "name": "retransmits_remaining",
+                                                                        "size": 4,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/retransmits_remaining"
+                                                                    },
+                                                                    {
+                                                                        "name": "rx_pipe_info",
+                                                                        "size": 32,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/rx_pipe_info"
+                                                                    },
+                                                                    {
+                                                                        "name": "esb_initialized",
+                                                                        "size": 1,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/esb_initialized"
+                                                                    },
+                                                                    {
+                                                                        "name": "pids",
+                                                                        "size": 8,
+                                                                        "identifier": "/Users/christian/workspace/wim/src/nrf_esb.c/pids"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WORKSPACE",
+                "size": 5129,
+                "identifier": "/opt/nordic/ncs",
+                "children": [
+                    {
+                        "name": "nrf",
+                        "size": 1943,
+                        "identifier": "nrf",
+                        "children": [
+                            {
+                                "name": "drivers",
+                                "size": 74,
+                                "identifier": "nrf/drivers",
+                                "children": [
+                                    {
+                                        "name": "mpsl",
+                                        "size": 72,
+                                        "identifier": "nrf/drivers/mpsl",
+                                        "children": [
+                                            {
+                                                "name": "clock_control",
+                                                "size": 4,
+                                                "identifier": "nrf/drivers/mpsl/clock_control",
+                                                "children": [
+                                                    {
+                                                        "name": "nrfx_clock_mpsl.c",
+                                                        "size": 4,
+                                                        "identifier": "nrf/drivers/mpsl/clock_control/nrfx_clock_mpsl.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "event_handler",
+                                                                "size": 4,
+                                                                "identifier": "nrf/drivers/mpsl/clock_control/nrfx_clock_mpsl.c/event_handler"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "flash_sync",
+                                                "size": 68,
+                                                "identifier": "nrf/drivers/mpsl/flash_sync",
+                                                "children": [
+                                                    {
+                                                        "name": "flash_sync_mpsl.c",
+                                                        "size": 68,
+                                                        "identifier": "nrf/drivers/mpsl/flash_sync/flash_sync_mpsl.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_context",
+                                                                "size": 68,
+                                                                "identifier": "nrf/drivers/mpsl/flash_sync/flash_sync_mpsl.c/_context"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "entropy",
+                                        "size": 2,
+                                        "identifier": "nrf/drivers/entropy",
+                                        "children": [
+                                            {
+                                                "name": "entropy_cc3xx.c",
+                                                "size": 2,
+                                                "identifier": "nrf/drivers/entropy/entropy_cc3xx.c",
+                                                "children": [
+                                                    {
+                                                        "name": "__devstate_dts_ord_96",
+                                                        "size": 2,
+                                                        "identifier": "nrf/drivers/entropy/entropy_cc3xx.c/__devstate_dts_ord_96"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "lib",
+                                "size": 20,
+                                "identifier": "nrf/lib",
+                                "children": [
+                                    {
+                                        "name": "multithreading_lock",
+                                        "size": 20,
+                                        "identifier": "nrf/lib/multithreading_lock",
+                                        "children": [
+                                            {
+                                                "name": "multithreading_lock.c",
+                                                "size": 20,
+                                                "identifier": "nrf/lib/multithreading_lock/multithreading_lock.c",
+                                                "children": [
+                                                    {
+                                                        "name": "mpsl_lock",
+                                                        "size": 20,
+                                                        "identifier": "nrf/lib/multithreading_lock/multithreading_lock.c/mpsl_lock"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "subsys",
+                                "size": 1849,
+                                "identifier": "nrf/subsys",
+                                "children": [
+                                    {
+                                        "name": "bluetooth",
+                                        "size": 697,
+                                        "identifier": "nrf/subsys/bluetooth",
+                                        "children": [
+                                            {
+                                                "name": "controller",
+                                                "size": 697,
+                                                "identifier": "nrf/subsys/bluetooth/controller",
+                                                "children": [
+                                                    {
+                                                        "name": "hci_driver.c",
+                                                        "size": 622,
+                                                        "identifier": "nrf/subsys/bluetooth/controller/hci_driver.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "receive_work",
+                                                                "size": 16,
+                                                                "identifier": "nrf/subsys/bluetooth/controller/hci_driver.c/receive_work"
+                                                            },
+                                                            {
+                                                                "name": "sdc_mempool",
+                                                                "size": 606,
+                                                                "identifier": "nrf/subsys/bluetooth/controller/hci_driver.c/sdc_mempool"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "hci_internal.c",
+                                                        "size": 75,
+                                                        "identifier": "nrf/subsys/bluetooth/controller/hci_internal.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "user_cmd_handler",
+                                                                "size": 4,
+                                                                "identifier": "nrf/subsys/bluetooth/controller/hci_internal.c/user_cmd_handler"
+                                                            },
+                                                            {
+                                                                "name": "cmd_complete_or_status",
+                                                                "size": 71,
+                                                                "identifier": "nrf/subsys/bluetooth/controller/hci_internal.c/cmd_complete_or_status"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "mpsl",
+                                        "size": 1152,
+                                        "identifier": "nrf/subsys/mpsl",
+                                        "children": [
+                                            {
+                                                "name": "init",
+                                                "size": 1152,
+                                                "identifier": "nrf/subsys/mpsl/init",
+                                                "children": [
+                                                    {
+                                                        "name": "mpsl_init.c",
+                                                        "size": 1152,
+                                                        "identifier": "nrf/subsys/mpsl/init/mpsl_init.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "timeslot_context",
+                                                                "size": 48,
+                                                                "identifier": "nrf/subsys/mpsl/init/mpsl_init.c/timeslot_context"
+                                                            },
+                                                            {
+                                                                "name": "mpsl_work_stack",
+                                                                "size": 1088,
+                                                                "identifier": "nrf/subsys/mpsl/init/mpsl_init.c/mpsl_work_stack"
+                                                            },
+                                                            {
+                                                                "name": "mpsl_low_prio_work",
+                                                                "size": 16,
+                                                                "identifier": "nrf/subsys/mpsl/init/mpsl_init.c/mpsl_low_prio_work"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "nrfxlib",
+                        "size": 1420,
+                        "identifier": "nrfxlib",
+                        "children": [
+                            {
+                                "name": "crypto",
+                                "size": 1420,
+                                "identifier": "nrfxlib/crypto",
+                                "children": [
+                                    {
+                                        "name": "nrf_cc310_platform",
+                                        "size": 1420,
+                                        "identifier": "nrfxlib/crypto/nrf_cc310_platform",
+                                        "children": [
+                                            {
+                                                "name": "src",
+                                                "size": 1420,
+                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src",
+                                                "children": [
+                                                    {
+                                                        "name": "nrf_cc3xx_platform_mutex_zephyr.c",
+                                                        "size": 1420,
+                                                        "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "sym_mutex",
+                                                                "size": 8,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/sym_mutex"
+                                                            },
+                                                            {
+                                                                "name": "asym_mutex",
+                                                                "size": 8,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/asym_mutex"
+                                                            },
+                                                            {
+                                                                "name": "rng_mutex",
+                                                                "size": 8,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/rng_mutex"
+                                                            },
+                                                            {
+                                                                "name": "power_mutex",
+                                                                "size": 8,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/power_mutex"
+                                                            },
+                                                            {
+                                                                "name": "power_mutex_int",
+                                                                "size": 20,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/power_mutex_int"
+                                                            },
+                                                            {
+                                                                "name": "rng_mutex_int",
+                                                                "size": 20,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/rng_mutex_int"
+                                                            },
+                                                            {
+                                                                "name": "asym_mutex_int",
+                                                                "size": 20,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/asym_mutex_int"
+                                                            },
+                                                            {
+                                                                "name": "sym_mutex_int",
+                                                                "size": 20,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/sym_mutex_int"
+                                                            },
+                                                            {
+                                                                "name": "mutex_slab_buffer",
+                                                                "size": 1280,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/mutex_slab_buffer"
+                                                            },
+                                                            {
+                                                                "name": "mutex_slab",
+                                                                "size": 28,
+                                                                "identifier": "nrfxlib/crypto/nrf_cc310_platform/src/nrf_cc3xx_platform_mutex_zephyr.c/mutex_slab"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "modules",
+                        "size": 1766,
+                        "identifier": "modules",
+                        "children": [
+                            {
+                                "name": "hal",
+                                "size": 726,
+                                "identifier": "modules/hal",
+                                "children": [
+                                    {
+                                        "name": "nordic",
+                                        "size": 726,
+                                        "identifier": "modules/hal/nordic",
+                                        "children": [
+                                            {
+                                                "name": "nrfx",
+                                                "size": 726,
+                                                "identifier": "modules/hal/nordic/nrfx",
+                                                "children": [
+                                                    {
+                                                        "name": "drivers",
+                                                        "size": 726,
+                                                        "identifier": "modules/hal/nordic/nrfx/drivers",
+                                                        "children": [
+                                                            {
+                                                                "name": "src",
+                                                                "size": 726,
+                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrfx_gpiote.c",
+                                                                        "size": 124,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_cb",
+                                                                                "size": 124,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c/m_cb"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_power.c",
+                                                                        "size": 13,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_power.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_pofwarn_handler",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_power.c/m_pofwarn_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_usbevt_handler",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_power.c/m_usbevt_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_sleepevt_handler",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_power.c/m_sleepevt_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "nrfx_power_irq_enabled",
+                                                                                "size": 1,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_power.c/nrfx_power_irq_enabled"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_ppi.c",
+                                                                        "size": 4,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_ppi.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_channels_allocated",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_ppi.c/m_channels_allocated"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_usbd.c",
+                                                                        "size": 585,
+                                                                        "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_dma_pending",
+                                                                                "size": 1,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_dma_pending"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_bus_suspend",
+                                                                                "size": 1,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_bus_suspend"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_last_setup_dir",
+                                                                                "size": 1,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_last_setup_dir"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_event_handler",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_event_handler"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_ep_ready",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_ep_ready"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_ep_state",
+                                                                                "size": 288,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_ep_state"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_ep_dma_waiting",
+                                                                                "size": 4,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_ep_dma_waiting"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_drv_state",
+                                                                                "size": 1,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_drv_state"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_first_enable",
+                                                                                "size": 1,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_first_enable"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_tx_buffer",
+                                                                                "size": 64,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_tx_buffer"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_ep_feeder_state",
+                                                                                "size": 108,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_ep_feeder_state"
+                                                                            },
+                                                                            {
+                                                                                "name": "m_ep_consumer_state",
+                                                                                "size": 108,
+                                                                                "identifier": "modules/hal/nordic/nrfx/drivers/src/nrfx_usbd.c/m_ep_consumer_state"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "debug",
+                                "size": 1040,
+                                "identifier": "modules/debug",
+                                "children": [
+                                    {
+                                        "name": "segger",
+                                        "size": 1040,
+                                        "identifier": "modules/debug/segger",
+                                        "children": [
+                                            {
+                                                "name": "SEGGER",
+                                                "size": 1040,
+                                                "identifier": "modules/debug/segger/SEGGER",
+                                                "children": [
+                                                    {
+                                                        "name": "SEGGER_RTT.c",
+                                                        "size": 1040,
+                                                        "identifier": "modules/debug/segger/SEGGER/SEGGER_RTT.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_acUpBuffer",
+                                                                "size": 1024,
+                                                                "identifier": "modules/debug/segger/SEGGER/SEGGER_RTT.c/_acUpBuffer"
+                                                            },
+                                                            {
+                                                                "name": "_acDownBuffer",
+                                                                "size": 16,
+                                                                "identifier": "modules/debug/segger/SEGGER/SEGGER_RTT.c/_acDownBuffer"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 3610,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 40762
+}

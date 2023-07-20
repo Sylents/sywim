@@ -17,10 +17,10 @@
 
 #define CONFIG_DEPRECATED_ZEPHYR_INT_TYPES
 
-#include <zephyr.h>
-#include <device.h>
-#include <drivers/gpio.h>
-#include <drivers/adc.h>
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
+#include "zephyr/drivers/gpio.h"
+#include "zephyr/drivers/adc.h"
 #include <nrfx.h>
 #include <nrf52840.h>
 //#include <nrf52.h>
@@ -28,11 +28,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <drivers/clock_control.h>
+#include <zephyr/drivers/clock_control.h>
 #include <hal/nrf_gpio.h>
-#include <drivers/flash.h>
-#include <fs/nvs.h>
-#include <storage/flash_map.h>
+#include <zephyr/drivers/flash.h>
+#include <zephyr/fs/nvs.h>
+#include <zephyr/storage/flash_map.h>
 
 #include "nrf_esb.h"
 #include "crc.h"
@@ -56,6 +56,8 @@
 #define SW2_PIN			13
 #define JS_GND_PIN		21
 #define JS_C_PIN		2
+#define TEST_PIN		8
+
 
 #define SW1				(!nrf_gpio_pin_read(SW1_PIN) || !nrf_gpio_pin_read(SW1_PIN2))
 #define SW2				!nrf_gpio_pin_read(SW2_PIN)
@@ -224,7 +226,7 @@ void rfhelp_send_data_crc(char *data, int len) {
 	tx_payload.data[len] = (char)(crc >> 8);
 	tx_payload.data[len + 1] = (char)(crc & 0xFF);
 
-	int res = nrf_esb_write_payload(&tx_payload);
+	int res = nrf_esb_write_payload(&tx_payload); 
 
 	if (res) {
 		printk("TX failed %d\r\n", res);
@@ -388,23 +390,30 @@ void go_to_sleep_long_press(void) {
 	NRF_POWER->SYSTEMOFF = 1;
 }
 
-void main(void) {
+/****************************************************** MAIN ******************************************************/
+
+int main(void) {
+
 	nrf_gpio_cfg_input(SW1_PIN, NRF_GPIO_PIN_PULLUP);
 	nrf_gpio_cfg_input(SW1_PIN2, NRF_GPIO_PIN_PULLUP);
 	nrf_gpio_cfg_input(SW2_PIN, NRF_GPIO_PIN_PULLUP);
 	nrf_gpio_cfg_output(JS_GND_PIN);
+	nrf_gpio_cfg_output(TEST_PIN);
 
-	// TODO: Test performance with
-	// https://devzone.nordicsemi.com/f/nordic-q-a/15093/change-clock-speed-nrf52
+	// check test pin
+	for (int i = 0;i < 500;i++) {
+		nrf_gpio_pin_write(TEST_PIN, 1);
+		for (int i = 0;i < 1000;i++) i=i*1;
+		nrf_gpio_pin_write(TEST_PIN, 0);
+		for (int i = 0;i < 1000;i++) i=i*1;
+	}
 
-	// TODO: try
-	// https://devzone.nordicsemi.com/f/nordic-q-a/15243/high-power-consumption-when-using-fpu
-
+#if 1
 	struct flash_pages_info info;
 	int rc = 0;
 
 	fs.offset = FLASH_AREA_OFFSET(storage);;
-	rc = flash_get_page_info_by_offs(device_get_binding(DT_CHOSEN_ZEPHYR_FLASH_CONTROLLER_LABEL), fs.offset, &info);
+	//rc = flash_get_page_info_by_offs(device_get_binding(DEVICE_DT_GET()), fs.offset, &info);
 	if (rc) {
 		printk("Unable to get page info");
 	}
@@ -412,7 +421,7 @@ void main(void) {
 	fs.sector_size = info.size;
 	fs.sector_count = 2;
 
-	rc = nvs_init(&fs, DT_CHOSEN_ZEPHYR_FLASH_CONTROLLER_LABEL);
+	rc = nvs_mount(&fs);
 	if (rc) {
 		printk("Flash Init failed\n");
 	}
@@ -421,6 +430,7 @@ void main(void) {
 	if (rc != sizeof(conf)) {
 		conf.use_imperial_units = false;
 	}
+#endif
 
 	clocks_start();
 
@@ -436,8 +446,10 @@ void main(void) {
 	set_addr_ch(uuid);
 
 	// Send pairing info at boot
-	for (int i = 0;i < 50;i++) {
+	for (int i = 0;i < 500;i++) {
+		nrf_gpio_pin_write(TEST_PIN, 1);
 		send_pairing_info(uuid);
+		nrf_gpio_pin_write(TEST_PIN, 0);
 	}
 
 	esb_wait_idle();
@@ -613,6 +625,8 @@ void main(void) {
 			go_to_sleep();
 		}
 	}
+
+	return 0;
 }
 
 void display_thd(void) {
@@ -975,7 +989,7 @@ void adc_sample_thd(void) {
 
 	adc_channel_setup(adc_dev, &channel_cfg);
 
-	static s16_t sample;
+	static int16_t sample;
 	struct adc_sequence seq;
 
 	seq.options = NULL;
@@ -1051,5 +1065,7 @@ void adc_sample_thd(void) {
 	}
 }
 
+#if 0
 K_THREAD_DEFINE(display_id, 2048, display_thd, NULL, NULL, NULL, 7, 0, 10);
+#endif
 K_THREAD_DEFINE(adc_id, 4096, adc_sample_thd, NULL, NULL, NULL, 6, 0, 10);

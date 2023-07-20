@@ -19,7 +19,7 @@
 
 #include "i2c_bb.h"
 #include <hal/nrf_gpio.h>
-#include <zephyr.h>
+#include <zephyr/kernel.h>
 
 // This is based on https://en.wikipedia.org/wiki/I%C2%B2C
 

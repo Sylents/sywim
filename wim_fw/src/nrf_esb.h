@@ -210,21 +210,21 @@ enum nrf_esb_evt_id {
  *  received packet with a payload.
  */
 struct nrf_esb_payload {
-	u8_t length; /**< Length of the packet when not in DPL mode. */
-	u8_t pipe;   /**< Pipe used for this payload. */
-	s8_t rssi;   /**< RSSI for the received packet. */
-	u8_t noack;  /**< Flag indicating that this packet will not be
+	uint8_t length; /**< Length of the packet when not in DPL mode. */
+	uint8_t pipe;   /**< Pipe used for this payload. */
+	int8_t rssi;   /**< RSSI for the received packet. */
+	uint8_t noack;  /**< Flag indicating that this packet will not be
 		       *  acknowledged. Flag is ignored when selective auto
 		       *  ack is enabled.
 		       */
-	u8_t pid;    /**< PID assigned during communication. */
-	u8_t data[CONFIG_NRF_ESB_MAX_PAYLOAD_LENGTH]; /**< The payload data. */
+	uint8_t pid;    /**< PID assigned during communication. */
+	uint8_t data[CONFIG_NRF_ESB_MAX_PAYLOAD_LENGTH]; /**< The payload data. */
 };
 
 /** @brief Enhanced ShockBurst event. */
 struct nrf_esb_evt {
 	enum nrf_esb_evt_id evt_id;	/**< Enhanced ShockBurst event ID. */
-	u32_t tx_attempts;	/**< Number of TX retransmission attempts. */
+	uint32_t tx_attempts;	/**< Number of TX retransmission attempts. */
 };
 
 /** @brief Definition of the event handler for the module. */
@@ -240,20 +240,20 @@ struct nrf_esb_config {
 	enum nrf_esb_crc crc;			/**< CRC mode. */
 	enum nrf_esb_tx_power tx_output_power;	/**< Radio TX power. */
 
-	u16_t retransmit_delay; /**< The delay between each retransmission of
+	uint16_t retransmit_delay; /**< The delay between each retransmission of
 				  *  unacknowledged packets.
 				  */
-	u16_t retransmit_count; /**< The number of retransmission attempts
+	uint16_t retransmit_count; /**< The number of retransmission attempts
 				  *  before transmission fail.
 				  */
 
 	/* Control settings */
 	enum nrf_esb_tx_mode tx_mode;	/**< Transmission mode. */
 
-	u8_t radio_irq_priority;	/**< nRF radio interrupt priority. */
-	u8_t event_irq_priority;	/**< ESB event interrupt priority. */
+	uint8_t radio_irq_priority;	/**< nRF radio interrupt priority. */
+	uint8_t event_irq_priority;	/**< ESB event interrupt priority. */
 
-	u8_t payload_length; /**< Length of the payload (maximum length depends
+	uint8_t payload_length; /**< Length of the payload (maximum length depends
 			       *  on the platforms that are used on each side).
 			       */
 	bool selective_auto_ack; /**< Selective auto acknowledgement.
@@ -371,7 +371,7 @@ int nrf_esb_flush_rx(void);
 * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
   */
-int nrf_esb_set_address_length(u8_t length);
+int nrf_esb_set_address_length(uint8_t length);
 
 /** @brief Set the base address for pipe 0.
  *
@@ -380,7 +380,7 @@ int nrf_esb_set_address_length(u8_t length);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_set_base_address_0(const u8_t *addr);
+int nrf_esb_set_base_address_0(const uint8_t *addr);
 
 /** @brief Set the base address for pipe 1 to pipe 7.
  *
@@ -389,7 +389,7 @@ int nrf_esb_set_base_address_0(const u8_t *addr);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_set_base_address_1(const u8_t *addr);
+int nrf_esb_set_base_address_1(const uint8_t *addr);
 
 /** @brief Set the number of pipes and the pipe prefix addresses.
  *
@@ -403,7 +403,7 @@ int nrf_esb_set_base_address_1(const u8_t *addr);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_set_prefixes(const u8_t *prefixes, u8_t num_pipes);
+int nrf_esb_set_prefixes(const uint8_t *prefixes, uint8_t num_pipes);
 
 /** @brief Enable select pipes.
  *
@@ -418,7 +418,7 @@ int nrf_esb_set_prefixes(const u8_t *prefixes, u8_t num_pipes);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_enable_pipes(u8_t enable_mask);
+int nrf_esb_enable_pipes(uint8_t enable_mask);
 
 /** @brief Update pipe prefix.
  *
@@ -428,7 +428,7 @@ int nrf_esb_enable_pipes(u8_t enable_mask);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_update_prefix(u8_t pipe, u8_t prefix);
+int nrf_esb_update_prefix(uint8_t pipe, uint8_t prefix);
 
 /** @brief Set the channel to use for the radio.
  *
@@ -442,7 +442,7 @@ int nrf_esb_update_prefix(u8_t pipe, u8_t prefix);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_set_rf_channel(u32_t channel);
+int nrf_esb_set_rf_channel(uint32_t channel);
 
 /** @brief Get the current radio channel.
  *
@@ -451,7 +451,7 @@ int nrf_esb_set_rf_channel(u32_t channel);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_get_rf_channel(u32_t *channel);
+int nrf_esb_get_rf_channel(uint32_t *channel);
 
 /** @brief Set the radio output power.
  *
@@ -469,7 +469,7 @@ int nrf_esb_set_tx_power(enum nrf_esb_tx_power tx_output_power);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_set_retransmit_delay(u16_t delay);
+int nrf_esb_set_retransmit_delay(uint16_t delay);
 
 /** @brief Set the number of retransmission attempts.
  *
@@ -478,7 +478,7 @@ int nrf_esb_set_retransmit_delay(u16_t delay);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_set_retransmit_count(u16_t count);
+int nrf_esb_set_retransmit_count(uint16_t count);
 
 /** @brief Set the radio bitrate.
  *
@@ -501,7 +501,7 @@ int nrf_esb_set_bitrate(enum nrf_esb_bitrate bitrate);
  * @retval 0 If successful.
  *           Otherwise, a (negative) error code is returned.
  */
-int nrf_esb_reuse_pid(u8_t pipe);
+int nrf_esb_reuse_pid(uint8_t pipe);
 
 /** @} */
 

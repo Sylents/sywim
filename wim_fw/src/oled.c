@@ -22,8 +22,8 @@
 
 #include <math.h>
 
-#include <zephyr.h>
-#include <device.h>
+#include <zephyr/kernel.h>
+#include <zephyr/device.h>
 #include <hal/nrf_gpio.h>
 
 #include "oled.h"
