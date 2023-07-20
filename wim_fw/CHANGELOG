@@ -1,0 +1,17 @@
+=== FW 1.3 ===
+* Upgraded to zephyr 2.4.99.
+* Ignore first button click at start.
+
+=== FW 1.2 ===
+* Enable control during intro screen.
+* Show firmware version in temperature screen.
+
+=== FW 1.1 ===
+* Handle handle_esb_rx in thread to avoid using float in an interrupt, as that is not allowed.
+* Added imperial unit support.
+* Added NVM storage for settings.
+* Safe joystick sampling.
+
+=== FW 1.0 ===
+* First release.
+
