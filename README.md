@@ -1,7 +1,8 @@
 # sywim
 sylents wim
 
-HowTo Add Deploy Key
+Wireless Module for Sylents3 Product
+Hardware and Software/Firmware components
 
-download ssh private key and store it into directory ~/.ssh/
+
 
